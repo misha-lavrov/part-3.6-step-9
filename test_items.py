@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 
-def test_items(browser):
+def test_if_button_exists(browser):
     button = None
     try:
         browser.get(link)
